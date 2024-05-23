@@ -1,0 +1,19 @@
+footer {
+    position: fixed;
+    background: rgb(193,90,6);
+    background: linear-gradient(90deg, rgba(193,90,6,1) 0%, rgba(255,136,0,1) 100%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    font-size:x-large;
+  }
+
+  @media screen and (max-width: 600px) {
+   footer {
+    font-size: medium;
+   }
+  }
